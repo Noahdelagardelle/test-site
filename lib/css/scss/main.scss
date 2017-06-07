@@ -1,4 +1,30 @@
+@import "normalize";
+
 body {
   font-family: sans-serif;
-  background-color: lightblue;
 }
+
+main {
+  overflow: auto;
+}
+
+p {
+  line-height: 1.5;
+}
+
+button {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: 15px 25px;
+  background-color: rgb(175, 175, 175);
+  border: none;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@import "./modules/_header";

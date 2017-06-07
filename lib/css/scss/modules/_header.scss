@@ -1,0 +1,14 @@
+nav {
+  background-color: rgb(222, 222, 222);
+  overflow: auto;
+  height: 50px;
+  line-height: 50px;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline;
+      margin-right: 1em;
+    }
+  }
+}
