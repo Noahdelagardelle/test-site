@@ -2,6 +2,7 @@
 /**
  * Change default box model.
  */
+@import url("https://fonts.googleapis.com/css?family=Cormorant+SC");
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -369,6 +370,10 @@ body {
 
 main {
   overflow: auto; }
+
+h1 {
+  font-family: 'Cormorant SC', serif;
+  letter-spacing: .1em; }
 
 p {
   line-height: 1.5; }
