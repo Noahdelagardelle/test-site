@@ -367,6 +367,20 @@ th {
 body {
   font-family: sans-serif; }
 
+main {
+  overflow: auto; }
+
+p {
+  line-height: 1.5; }
+
+button {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: 15px 25px;
+  background-color: #afafaf;
+  border: none;
+  border-radius: 5px; }
+
 .container {
   max-width: 80%;
   margin-left: auto;
