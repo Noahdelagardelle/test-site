@@ -3,3 +3,11 @@
 body {
   font-family: sans-serif;
 }
+
+.container {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@import "./modules/_header";
