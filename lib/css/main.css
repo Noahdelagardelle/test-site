@@ -402,5 +402,12 @@ nav {
     nav ul li {
       display: inline;
       margin-right: 1em; }
+  nav a {
+    font-family: 'Cormorant SC', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1em;
+    color: #3b3b3b; }
 
 /*# sourceMappingURL=main.css.map */
